@@ -2,12 +2,12 @@
 
 ## 1. Overview & Unique LLM Vulnerabilities
 
-Large Language Models (LLMs) are transforming technology across various industries, from customer support chatbots to automated code generation and medical diagnostics[span_0](start_span)[span_0](end_span). Global AI investment is projected to reach $300 billion by 2030, with models increasingly influencing critical decision-making in healthcare and finance[span_1](start_span)[span_1](end_span).
+Large Language Models (LLMs) are transforming technology across various industries, from customer support chatbots to automated code generation and medical diagnostics. Global AI investment is projected to reach $300 billion by 2030, with models increasingly influencing critical decision-making in healthcare and finance.
 
 Unlike traditional software, LLMs introduce unique security challenges due to their architectural design[span_2](start_span)[span_2](end_span)[span_3](start_span)[span_3](end_span):
 * **Probabilistic Nature**: LLMs generate responses based on statistical probability rather than deterministic logic, leading to unpredictable outputs[span_4](start_span)[span_4](end_span)[span_5](start_span)[span_5](end_span).
 * **Dynamic Data Handling**: Continuous learning and real-time interaction significantly expand the attack surface[span_6](start_span)[span_6](end_span)[span_7](start_span)[span_7](end_span).
-* **Opaque Decision-Making**: Debugging and securing LLMs is challenging because internal decision processes are complex and non-transparent[span_8](start_span)[span_8](end_span).
+* **Opaque Decision-Making**: Debugging and securing LLMs is challenging because internal decision processes are complex and non-transparent.
 
 ---
 
