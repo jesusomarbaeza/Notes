@@ -304,29 +304,7 @@ def process_request(request_id: str) -> None:
 
 ## 11. Practical applications for Python automation
 
-MCP can fit your Python testing and automation work in several ways:
-
-### BDD support
-
-Expose narrow tools such as:
-
-- `get_ticket_acceptance_criteria(ticket_id)`
-- `find_existing_feature_files(search_text)`
-- `validate_gherkin(feature_text)`
-- `run_targeted_tests(marker)`
-- `collect_test_evidence(run_id)`
-
 Keep generation and review logic in Python services. MCP should be the controlled interface, not the entire application architecture.
-
-### SIT functional testing
-
-A controlled MCP server could:
-
-1. Retrieve approved SIT test records.
-2. Call a target API.
-3. Read database results as evidence.
-4. Compare API and database values.
-5. Save a redacted result artifact.
 
 Do not expose unrestricted `run_sql` when smaller purpose-built tools can do the job.
 
